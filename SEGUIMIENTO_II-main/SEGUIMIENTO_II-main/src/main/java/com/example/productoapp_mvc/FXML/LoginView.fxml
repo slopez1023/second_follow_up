@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.Image?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.productoapp_mvc.controller.LoginController" stylesheets="@/com/example/productoapp_mvc/styles.css">
+    <ImageView fitWidth="400" fitHeight="500" layoutX="0" layoutY="0" pickOnBounds="true" preserveRatio="false">
+        <image>
+            <Image url="@/Fondo_inicio_sesion.jpg" />
+        </image>
+    </ImageView>
+    <Label text="INICIAR SESIÓN" styleClass="title-label" layoutX="100" layoutY="50"/>
+    <TextField fx:id="usernameField" promptText="Ingrese su Usuario" layoutX="100" layoutY="150" prefWidth="200"/>
+    <PasswordField fx:id="passwordField" promptText="Ingrese su Contraseña" layoutX="100" layoutY="200" prefWidth="200"/>
+    <Button text="INGRESAR" onAction="#handleLogin" layoutX="150" layoutY="250" prefWidth="100"/>
+    <Button text="REGISTRARSE" onAction="#handleRegister" layoutX="150" layoutY="300" prefWidth="100"/>
+    <!-- Aquí puedes añadir imágenes o vectores adicionales -->
+    <ImageView layoutX="20" layoutY="350" fitWidth="50" fitHeight="50">
+        <image>
+            <Image url="/com/example/productoapp_mvc/view/FXML/images/Icono_Tienda.png" />
+        </image>
+    </ImageView>
+    <ImageView layoutX="330" layoutY="350" fitWidth="50" fitHeight="50">
+        <image>
+            <Image url="/com/example/productoapp_mvc/view/FXML/images/Icono_Tienda.png" />
+        </image>
+    </ImageView>
+</AnchorPane>

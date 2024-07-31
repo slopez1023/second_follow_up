@@ -1,0 +1,50 @@
+/* styles.css */
+.title-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: rgba(51, 51, 51, 0.7);
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.text-field, .password-field {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #333333;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: rgba(51, 51, 51, 0.7);
+}
+
+.combo-box {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-color: #333333;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.table-view {
+    -fx-border-color: #333333;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.text-area {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-color: #333333;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
